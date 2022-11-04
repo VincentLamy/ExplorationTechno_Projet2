@@ -1,0 +1,22 @@
+{
+  "name": "explorationtechno_projet2",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
+  "description": "",
+  "main": "./server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentLamy/ExplorationTechno_Projet2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentLamy/ExplorationTechno_Projet2/issues"
+  },
+  "homepage": "https://github.com/VincentLamy/ExplorationTechno_Projet2#readme"
+}
