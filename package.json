@@ -8,7 +8,7 @@
   "main": "./server/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client node build"
+    "start": "cd ./client && node build && cd ../server && node start"
   },
   "repository": {
     "type": "git",
