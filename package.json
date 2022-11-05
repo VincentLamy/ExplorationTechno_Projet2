@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run production",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/VincentLamy/ExplorationTechno_Projet2/issues"
   },
-  "homepage": "https://github.com/VincentLamy/ExplorationTechno_Projet2#readme"
+  "homepage": "https://github.com/VincentLamy/ExplorationTechno_Projet2#readme",
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
 }
